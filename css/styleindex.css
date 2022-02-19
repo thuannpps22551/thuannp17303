@@ -1,0 +1,61 @@
+.container {
+    max-width: 1000px;
+    margin: 0px 230px;
+}
+
+.link {
+    background-color: rgb(27, 230, 230);
+    padding: 0 90px;
+    border-collapse: collapse;
+    line-height: 50px;
+}
+
+.menu>ul>li {
+    display: inline-block;
+}
+
+.menu>ul>li>a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.menu>ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgb(21, 147, 219);
+    text-align: center;
+}
+
+.menu>ul>li>a:hover {
+    color: yellow;
+}
+
+.menu {
+    margin: 0px 200px;
+}
+
+.table {
+    margin: 0px 230px;
+    padding: 0 90px;
+}
+
+td {
+    text-align: center;
+}
+
+.footer {
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    max-width: 1200px;
+    margin-left: 220px;
+}

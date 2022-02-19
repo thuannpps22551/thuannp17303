@@ -1,0 +1,67 @@
+.container {
+    max-width: 1000px;
+    margin: 0px 230px;
+}
+
+.menu>ul>li {
+    display: inline-block;
+}
+
+.menu>ul>li>a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.menu {
+    margin: 0px 200px;
+}
+
+.menu>ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgb(13, 162, 231);
+    text-align: center;
+}
+
+.menu>ul>li>a:hover {
+    color: yellow;
+}
+
+.table {
+    margin: 0px 230px;
+    padding: 0 90px;
+}
+
+td {
+    text-align: center;
+}
+
+.footer {
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    max-width: 1200px;
+    margin-left: 220px;
+}
+
+table {
+    height: 500px;
+    font-size: x-large;
+}
+
+.button>input {
+    margin: 5px 50px;
+}
+
+.button>input:hover {
+    background-color: red;
+}
